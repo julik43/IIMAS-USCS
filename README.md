@@ -1,9 +1,10 @@
-IIMAS-USCS
+#IIMAS-USCS
 
 UNAM IIMAS -- UCSC
-Authors:  Andrew Smith
-          David Kant
-          Ivette Velez
+Authors:	Andrew Smith
+			David Kant
+			Ivette Velez
+
 Part of the project: Caleb Rascon, Pablo Rubio, Francisco Neri
 
 This model is programmed to make a verification of two audio signals and indicate if the second signal has the first signal on it.
