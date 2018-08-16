@@ -1,7 +1,5 @@
 # IIMAS-USCS
 
-UNAM IIMAS -- UCSC
-
 Authors: Andrew Smith, David Kant, Ivette Velez.
 
 Part of the project: Caleb Rascon, Pablo Rubio, Francisco Neri.
@@ -15,10 +13,13 @@ It uses three separated databases each one with the desired audio for train, val
 To run the model use the next command:
 
 If all the parameters are configured correctly in the file:
+
 python resnet_50_v1.py
 
 If you want to configure one or more parameters use:
+
 python resnet_50_v1.py --learning_rate 0.01 --num_epochs 10 --batch_size 10 --train_dir /train --valid_dir /valid --test_dir /dir
+
 note: you can configure just one parameter writing: --name_of_the_parameter value
 
 
